@@ -1,2 +1,2 @@
 # practica-web
-Practicando estructura web completa responsive y con sass
+Primer proyecto practicando estructura web completa responsive y con sass
