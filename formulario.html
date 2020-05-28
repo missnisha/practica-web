@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        .formulario{
+            display: flex;
+            flex-direction: column;  
+        }
+
+        .formulario label{
+            flex: none;
+            display: block;
+            width: 125px;
+            font-weight: bold;
+            font-size: 14px;
+            padding-top: 20px;
+            padding-bottom: 5px;
+        }
+
+        .formulario *{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        #button-form{
+            background-color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-top: 15px;
+            border-radius: 5px 5px 5px 5px;
+            border: 1px solid #cccccc;
+
+            
+        }
+
+        .formulario input{
+            border-radius: 2px;
+            border: 1px solid #cccccc;
+            padding: 5px;
+        }
+
+        .formulario textarea{
+            border-radius: 2px;
+            border: 1px solid #cccccc;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="formulario">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter name" id="name" />
+            </div>
+            <div>
+                <label for="name">Company name</label>
+                <input type="text" placeholder="Enter company name" id="name" />
+            </div>
+            <div>
+                <label for="mail">Email adress</label>
+                <input type="email" placeholder="Enter email" 
+                id="mail" />
+            </div>
+            <div>
+                <label for="msg">Message</label>
+                <textarea id="msg" placeholder="Enter message"></textarea>
+            </div>
+            
+            <div class="button">
+                <button id="button-form" type="submit">Submit</button>
+            </div>
+    </div>
+    
+</body>
+</html>

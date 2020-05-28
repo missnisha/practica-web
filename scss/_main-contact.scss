@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+/*franja verde*/
+
+.franja{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 65px;
+    background-color: #00b09b;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.franja h1{
+    padding-left: 120px;
+    padding-top: 18px;
+}
+
+/*Fin franja verde*/
+
+#contact-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 150px 30px 150px;
+}
+
+/* formulario*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario label{
+    flex: none;
+    display: block;
+    width: 125px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 60%vw;
+}
+
+.formulario *{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#button-form{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 30px;
+
+    
+}
+
+.formulario input{
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    width: 50vw;
+}
+
+.formulario textarea{
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    width: 50vw;
+   
+}
+
+
+/* fin formulario*/

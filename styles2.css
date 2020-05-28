@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.menu-main{
+    display: flex;
+    justify-content: flex-start;
+    background: #f1f1f1;
+    height: 50px;
+    width: 100vw;
+    
+
+}
+
+.menu-main a{
+    padding: 20px;
+    font-family: arial;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;    
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu-main a.active{
+    background-color: #c4c4c4;
+}
+
+#logo {
+    color: rgb(0, 173, 159);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 100px;
+
+
+}
+
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#main-header{
+    background-image: url("images/assets/site_showcase_bg.jpg");
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+#background-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 45px;
+}
+
+.text-header{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#capture{
+ font-weight: bolder;
+ color: white;
+ margin-right: 10px;
+ font-size: 50px;
+ margin-bottom: 10px;
+ margin-top: -60px;
+ 
+ 
+}
+
+span{
+color: rgb(35, 211, 196);
+margin-left: 10px;
+
+
+}
+
+.header-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+#logo-google-play{
+    padding-left: 25px;
+}
+
+#phone{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.welcome-container{
+    width: 45%;
+}
+
+#phone img{
+    max-height: 500px;
+    padding-top: 30px;
+}
+
+#main-middle{
+    padding: 10px;
+    margin: 30px 150px 30px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featured{
+    border: 1px solid #ccc;
+    max-width: 380px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+
+.featured img{
+    max-width: 360px;
+    min-height: 300px;
+
+    align-self: center;
+} 
+
+.featured button{
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+} 
+
+
+.featured-text h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 28px;
+    letter-spacing: 0;
+    
+}
+
+/*footer css*/
+
+.featured-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.featured-list li:before {
+    content: "\2714";
+    margin-right: 10px;
+
+  }
+
+
+.footer-block{
+    background-color: #00b09b;
+    height: 350px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-block-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: bold;
+
+}
+
+#footer-block-title{
+    color: white;
+    font-size: 35px;
+}
+
+
+#footer-block-2{
+    background-color: #333333;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer-block-2-menu a{
+    color: white;
+    padding: 5px;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.privacy-policy-footer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter; 
+}
+
+@media (max-width: 580px){
+    
+    #main-middle{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+       
+    }
+    .featured{
+        min-width: 500px;
+        margin-top: 20px;
+
+
+    }
+    .featured img{
+        min-width: 480px;
+    }
+
+    .footer-block{
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    #footer-block-2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+    
+    }
+    
+    #footer-block-2-menu{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    #phone{
+        display: none;
+    }
+
+    #background-header{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .welcome-logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .welcome-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .welcome-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #logo-google-play{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    #capture{
+        margin-top: 5%;
+    }
+
+    .header-images{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #logo {
+        margin-left: 15%;
+    }
+
+}

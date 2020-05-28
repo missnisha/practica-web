@@ -1,0 +1,270 @@
+
+#main-header{
+    background-image: url("images/assets/site_showcase_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 45px;
+}
+
+.text-header{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#capture{
+ font-weight: bolder;
+ color: white;
+ margin-right: 10px;
+ font-size: 50px;
+ margin-bottom: 10px;
+ margin-top: -60px;
+ 
+ 
+}
+
+span{
+color: rgb(35, 211, 196);
+margin-left: 10px;
+
+
+}
+
+.header-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+#logo-google-play{
+    padding-left: 25px;
+}
+
+#phone{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.welcome-container{
+    width: 45%;
+}
+
+#phone img{
+    max-height: 500px;
+    padding-top: 30px;
+}
+
+#main-middle{
+    padding: 10px;
+    margin: 30px 150px 30px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featured{
+    border: 1px solid #ccc;
+    max-width: 380px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+
+.featured img{
+    max-width: 360px;
+    min-height: 300px;
+
+    align-self: center;
+} 
+
+.featured button{
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+} 
+
+
+.featured-text h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 28px;
+    letter-spacing: 0;
+    
+}
+
+@media all and (max-width:580px){
+
+    #phone{
+        display: none;
+    }
+
+    #background-header{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .welcome-logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .welcome-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .welcome-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #logo-google-play{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    #capture{
+        margin-top: 5%;
+    }
+
+    .header-images{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+    #main-middle{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+       
+    }
+    .featured{
+        min-width: 500px;
+        margin-top: 20px;
+
+    }
+    .featured img{
+        min-width: 480px;
+    }
+}
+
+@media all and (min-width:581px) and (max-width: 768px){
+
+    #phone{
+        display: none;
+    }
+
+    #background-header{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .welcome-logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .welcome-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .welcome-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #logo-google-play{
+        padding-left: 0;
+        padding-left: 50px;
+    }
+    #capture{
+        margin: auto;
+        margin-top: -50px;
+    }
+
+    .header-images{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+    #main-middle{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        margin: 15px auto;
+        flex-wrap: wrap;
+    }
+
+    .featured{
+        margin-left: 20px;
+        max-width: 45%;
+        margin-top: 20px;
+
+    }
+    .featured img{
+        max-width: 100%;
+        min-height: 250px;
+        max-height: 250px;
+    }
+
+}
+
