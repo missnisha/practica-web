@@ -1,2 +1,5 @@
-# practica-web
-Primer proyecto practicando estructura web completa responsive y con sass
+# Simple web structure practice
+
+First desktop website structure project, playing with responsiveness until certain point (just Desktop)
+
+https://missnisha.github.io/practica-web-desktop/
